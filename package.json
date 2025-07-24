@@ -28,9 +28,9 @@
     "serve": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "set PUBLIC_URL=/my_portfolio&& react-scripts build",
     "deploy": "gh-pages -d build",
-    "build": "PUBLIC_URL=/my_portfolio react-scripts build"
+    "build": "set PUBLIC_URL=/my_portfolio&& react-scripts build"
   },
   "eslintConfig": {
     "extends": [
