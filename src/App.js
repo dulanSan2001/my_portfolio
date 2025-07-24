@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // Changed from BrowserRouter
   Route,
   Routes,
   Navigate
@@ -9,7 +9,6 @@ import {
 import Home from './pages/Home'
 import Skill from './pages/Skillset'
 import Project from './pages/Projects'
-// import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 
 import Navbar from "./components/Navbar/Navbar";
@@ -28,12 +27,11 @@ function App() {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <Router>
+    <Router basename="/my_portfolio">  {/* Added basename */}
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -42,7 +40,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
