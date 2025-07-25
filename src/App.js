@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  HashRouter as Router,  // Changed from BrowserRouter
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/my_portfolio">  {/* Added basename */}
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />

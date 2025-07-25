@@ -2,7 +2,6 @@
   
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://dulansan2001.github.io/my_portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
