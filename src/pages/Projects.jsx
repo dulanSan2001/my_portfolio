@@ -35,7 +35,7 @@ Key features include customer and product management, automated invoice generati
               isBlog={false}
               title="ConnectSphere – Full-Stack Social Media Platform"
               description="ConnectSphere is a full-stack social media platform developed to foster meaningful user engagement through interactive posts, emotional tracking, and personalized social experiences. Built using React.js (frontend), Node.js/Express.js (backend), and MySQL (database), it enables users to register, create posts, comment, like, and share their daily lives. A standout feature is the integrated Mood Calendar, which allows users to log their emotional state daily and view their mental health trends over time — making ConnectSphere a powerful tool to Pare more than just a traditional social media app."
-              ghLink="https://github.com/19sajib/social-media"
+              ghLink="https://github.com/dulanSan2001/final_project"
             />
           </Col>
 
