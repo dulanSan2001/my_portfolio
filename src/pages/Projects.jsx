@@ -25,7 +25,7 @@ const Projects = () => {
               title="Olinta Invoicing and Stock Control App"
               description="The Olinta Enterprises Billing System is a desktop-based application developed in C# with Windows Forms, designed to streamline the sales and billing process for a retail business. The system allows staff to manage products, generate invoices, update stock, and calculate totals with discounts in real time.
 Key features include customer and product management, automated invoice generation, search functionality, and a user-friendly interface tailored for daily use by non-technical staff. The solution enhances accuracy, reduces manual errors, and improves overall billing efficiency at the point of sale."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              ghLink="https://github.com/dulanSan2001/Olinta-Invoicing-and-Stock-Control-App"
             />
           </Col>
 
